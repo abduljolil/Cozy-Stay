@@ -1,7 +1,7 @@
  
 const ServiceCard = ({icon,title}) => {
     return (
-        <div className="flex gap-5">
+        <div className=" md:flex gap-5">
           <p className="text-6xl text-red-500">{icon}</p>
           <div >
             <h1 className="text-xl font-bold">{title}</h1>

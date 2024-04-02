@@ -13,7 +13,7 @@ const HomeServices = () => {
 
     return (
         <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row lg:gap-20">
+        <div className="hero-content flex-col lg:flex-row  lg:gap-20">
           <img src="https://i.postimg.cc/k4ttRHhf/img-84-1025x1536.jpg" className="max-w-full max-h-full rounded-lg shadow-2xl" />
           <div className="lg: flex flex-col gap-5">
             <p>DISCOVER THE SERVICES WE OFFERED</p>

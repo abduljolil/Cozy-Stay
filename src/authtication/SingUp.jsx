@@ -50,12 +50,11 @@ const SignUp = () => {
             <Helmet>
                 <title> Cozy Stay | Sign Up</title>
             </Helmet>
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold">Sign up now!</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    </div>
+            <div className="hero bg-base-200">
+                
+                <div className="hero-content flex-col ">
+                <h1 className="text-5xl font-bold">Sign up now!</h1>
+                    
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                             <div className="form-control">
@@ -95,10 +94,10 @@ const SignUp = () => {
                                 <input className="btn btn-primary" type="submit" value="Sign Up" />
                             </div>
                         </form>
-                        <div className='p-16'>
+                        <div className='px-16'>
                        <p ><small>Already have  an account ? <span className='text-blue font-bold text-xl '><Link to="/login">Login</Link> </span></small></p>
                        <div className="p-8">
-            <div className="divider"></div>
+                  <div className="divider"></div>
             <div>
                 <button onClick={handleGoogleSignIn} className="btn">
                     <FaGoogle className="mr-2"></FaGoogle>
